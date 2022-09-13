@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Patatas Fritas</string>
+    <string name="homepage_title">Salut User</string>
+
+
+    <!--bottom navigation-->
+    <string name="bottom_homepage">Home</string>
+    <string name="bottom_transfer">Transfert</string>
+    <string name="bottom_leaderboard">Classement</string>
+    <string name="bottom_statistics">Statistiques</string>
 </resources>

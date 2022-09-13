@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_page"
+        android:title="@string/bottom_homepage"
+        android:icon="@drawable/ic_fries" />
+
+    <item
+        android:id="@+id/transfer_page"
+        android:title="@string/bottom_transfer"
+        android:icon="@drawable/ic_transfer"/>
+
+    <item
+        android:id="@+id/leaderboard_page"
+        android:title="@string/bottom_leaderboard"
+        android:icon="@drawable/ic_medal"/>
+
+    <item
+        android:id="@+id/statistics_page"
+        android:title="@string/bottom_statistics"
+        android:icon="@drawable/ic_stats"/>
+</menu>

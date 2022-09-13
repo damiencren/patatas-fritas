@@ -39,9 +39,10 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigation_view"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="wrap_content"
         android:background="@color/light_orange"
         app:elevation="0dp"
+        app:labelVisibilityMode="labeled"
         app:itemIconTint="@drawable/bottom_navigation_color"
         app:itemTextColor="@drawable/bottom_navigation_color"
         app:layout_constraintBottom_toBottomOf="parent"

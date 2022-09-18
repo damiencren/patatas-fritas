@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Patatas Fritas</string>
+
+    <!--Main activity-->
     <string name="homepage_title">Salut User</string>
 
 
@@ -8,4 +10,14 @@
     <string name="bottom_transfer">Transfert</string>
     <string name="bottom_leaderboard">Classement</string>
     <string name="bottom_statistics">Statistiques</string>
+
+    <!--home fragment-->
+    <string name="home_text1">Vous devez :</string>
+    <string name="home_text2">On vous doit :</string>
+    <string name="home_sub1">Historique</string>
+
+    <!--item vertical recycler home-->
+    <string name="item_user_name">Nom</string>
+    <string name="item_amount">Somme</string>
+    <string name="item_reason">Somme</string>
 </resources>

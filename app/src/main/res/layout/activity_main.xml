@@ -30,9 +30,10 @@
         app:layout_constraintTop_toBottomOf="@id/activity_main_tv_app_name" />
 
     <FrameLayout
+        android:id="@+id/activity_main_fl"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginTop="@dimen/large_margin"
         app:layout_constraintBottom_toTopOf="@+id/navigation_view"
         app:layout_constraintTop_toBottomOf="@id/activity_main_tv_title" />
 

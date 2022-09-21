@@ -11,24 +11,12 @@ import fr.damienc.patatasfritas.HistoryItemModel
 import fr.damienc.patatasfritas.MainActivity
 import fr.damienc.patatasfritas.R
 
-val historyList: List<HistoryItemModel> = listOf(
-    HistoryItemModel("arthur",25,"raison"),
-    HistoryItemModel("nath",2000,"raison"),
-    HistoryItemModel("arthur",25,"raison"),
-    HistoryItemModel("arthur",25,"raison"),
-    HistoryItemModel("arthur",25,"raison"),
-    HistoryItemModel("arthur",25,"raison"),
-    HistoryItemModel("arthur",25,"raison"),
-    HistoryItemModel("arthur",25,"raison"),
-    HistoryItemModel("arthur",25,"raison"),
-    HistoryItemModel("arthur",25,"raison")
-)
 
-class HistoryAdapter (private val context: MainActivity) : RecyclerView.Adapter<HistoryAdapter.ViewHolder>() {
+class HistoryAdapter (private val context: MainActivity, private val historyList: List<HistoryItemModel>) : RecyclerView.Adapter<HistoryAdapter.ViewHolder>() {
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view){
 
-        val itemName = view.findViewById<TextView>(R.id.item_vertical_rv_item_name)
-        val itemReason = view.findViewById<TextView>(R.id.item_vertical_rv_item_reason)
+        val itemName: TextView = view.findViewById(R.id.item_vertical_rv_item_name)
+        val itemReason: TextView = view.findViewById(R.id.item_vertical_rv_item_reason)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

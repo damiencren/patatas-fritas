@@ -53,26 +53,51 @@
         app:layout_constraintStart_toEndOf="@+id/view"
         app:layout_constraintTop_toTopOf="@+id/textView4" />
 
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tabTextColor="@color/black"
+        app:tabIndicatorColor="@color/orange"
+        android:layout_marginTop="@dimen/little_margin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabLayoutItemLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="local" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabLayoutItemGlobal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="global" />
+    </com.google.android.material.tabs.TabLayout>
+
     <TextView
         android:id="@+id/textView"
         style="@style/SubtitleTextStyle"
+        android:layout_marginTop="@dimen/large_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/default_margin"
         android:text="@string/home_sub1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        android:layout_marginTop="@dimen/large_margin"/>
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/fragment_home_rv"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="vertical"
+        android:layout_marginTop="@dimen/default_margin"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:layout_marginTop="@dimen/little_margin"/>
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

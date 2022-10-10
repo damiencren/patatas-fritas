@@ -11,7 +11,7 @@
         android:icon="@drawable/ic_transfer"/>
 
     <item
-        android:id="@+id/presets_page"
+        android:id="@+id/leaderboard_page"
         android:title="@string/bottom_leaderboard"
         android:icon="@drawable/ic_medal"/>
 

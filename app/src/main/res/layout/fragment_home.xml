@@ -59,7 +59,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
-        app:tabTextColor="@color/black"
+        app:tabTextAppearance="@style/DefaultTextStyle"
         app:tabIndicatorColor="@color/orange"
         android:layout_marginTop="@dimen/little_margin"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,13 +69,13 @@
             android:id="@+id/tabLayoutItemLocal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="local" />
+            android:text="Local" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/tabLayoutItemGlobal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="global" />
+            android:text="Globale" />
     </com.google.android.material.tabs.TabLayout>
 
     <TextView

@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
 
-                R.id.presets_page -> {
+                R.id.leaderboard_page -> {
                     loadFragment(PresetsFragment(this))
                     true
                 }

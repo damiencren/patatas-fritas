@@ -3,20 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/crend/Documents/GitHub/patatas-fritas/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.31666666666666665" />
-        <entry key="..\:/Users/crend/Documents/GitHub/patatas-fritas/app/src/main/res/drawable/bottom_navigation_color.xml" value="0.2953125" />
-        <entry key="..\:/Users/crend/Documents/GitHub/patatas-fritas/app/src/main/res/drawable/ic_fries.xml" value="0.2953125" />
-        <entry key="..\:/Users/crend/Documents/GitHub/patatas-fritas/app/src/main/res/drawable/ic_launcher_background.xml" value="0.31666666666666665" />
-        <entry key="..\:/Users/crend/Documents/GitHub/patatas-fritas/app/src/main/res/layout/activity_main.xml" value="0.28940217391304346" />
-        <entry key="..\:/Users/crend/Documents/GitHub/patatas-fritas/app/src/main/res/layout/fragment_home.xml" value="0.365625" />
-        <entry key="..\:/Users/crend/Documents/GitHub/patatas-fritas/app/src/main/res/layout/fragment_presets.xml" value="0.1875" />
-        <entry key="..\:/Users/crend/Documents/GitHub/patatas-fritas/app/src/main/res/layout/fragment_statistics.xml" value="0.18854166666666666" />
-        <entry key="..\:/Users/crend/Documents/GitHub/patatas-fritas/app/src/main/res/layout/fragment_transfer.xml" value="0.67" />
-        <entry key="..\:/Users/crend/Documents/GitHub/patatas-fritas/app/src/main/res/layout/item_vertical_home_rv.xml" value="0.407826982492276" />
-        <entry key="..\:/Users/crend/Documents/GitHub/patatas-fritas/app/src/main/res/layout/item_vertical_recycler_view.xml" value="0.33" />
-        <entry key="..\:/Users/crend/Documents/GitHub/patatas-fritas/app/src/main/res/layout/tab_nav.xml" value="0.3625" />
-        <entry key="..\:/Users/crend/Documents/GitHub/patatas-fritas/app/src/main/res/menu/menu.xml" value="0.2791666666666667" />
-        <entry key="..\:/Users/crend/Documents/GitHub/patatas-fritas/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/natha/OneDrive/Documents/GitHub/patatas-fritas/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.142" />
+        <entry key="..\:/Users/natha/OneDrive/Documents/GitHub/patatas-fritas/app/src/main/res/drawable/bottom_navigation_color.xml" value="0.142" />
+        <entry key="..\:/Users/natha/OneDrive/Documents/GitHub/patatas-fritas/app/src/main/res/drawable/ic_fries.xml" value="0.142" />
+        <entry key="..\:/Users/natha/OneDrive/Documents/GitHub/patatas-fritas/app/src/main/res/drawable/ic_launcher_background.xml" value="0.142" />
+        <entry key="..\:/Users/natha/OneDrive/Documents/GitHub/patatas-fritas/app/src/main/res/drawable/ic_medal.xml" value="0.142" />
+        <entry key="..\:/Users/natha/OneDrive/Documents/GitHub/patatas-fritas/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/natha/OneDrive/Documents/GitHub/patatas-fritas/app/src/main/res/layout/fragment_home.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/natha/OneDrive/Documents/GitHub/patatas-fritas/app/src/main/res/layout/fragment_presets.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/natha/OneDrive/Documents/GitHub/patatas-fritas/app/src/main/res/layout/fragment_statistics.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/natha/OneDrive/Documents/GitHub/patatas-fritas/app/src/main/res/layout/fragment_transfer.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/natha/OneDrive/Documents/GitHub/patatas-fritas/app/src/main/res/layout/item_vertical_home_rv.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/natha/OneDrive/Documents/GitHub/patatas-fritas/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.25" />
+        <entry key="..\:/Users/natha/OneDrive/Documents/GitHub/patatas-fritas/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.142" />
+        <entry key="..\:/Users/natha/OneDrive/Documents/GitHub/patatas-fritas/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.142" />
       </map>
     </option>
   </component>
